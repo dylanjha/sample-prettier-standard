@@ -1,0 +1,16 @@
+{
+  "name": "sample-prettier-standard",
+  "version": "0.0.1",
+  "description": "Sample for a github issue",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier-standard": "^7.0.3",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "format-standard": "standard --fix 'src/**/*.js'",
+    "format-prettier": "prettier-standard 'src/**/*.js'",
+    "lint": "standard 'src/**/*.js'"
+  }
+}
